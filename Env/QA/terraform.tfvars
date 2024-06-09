@@ -22,3 +22,20 @@ Vnet = {
     }
   }
 }
+VM = {
+  VM1 = {
+    resource_group_name = "AnkuRG"
+    nic_name            = "AnkuNIC"
+    location            = "canadaeast"
+    vm_name             = "AnkuVM"
+    vm_size             = "Standard_DS1_v2"
+  }
+}
+KeyVault = {
+  KeyVault1 = {
+    keyvaultname        = "SecretStorage"
+    location            = "canadaeast"
+    resource_group_name = "AnkuRG"
+  }
+}
+
